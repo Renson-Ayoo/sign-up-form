@@ -93,16 +93,32 @@ body {
     width: 250px;
     height: 30px;
     border-radius: 3px;
-    border: 1px solid rgba(0, 0, 0, 0.215);
+    border: 1px solid #E5E7EB;
     transition: 0.5s ease-in-out;
-    outline-color: blue ;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 10px blue;
+    outline-color: blue;
+    outline-offset: 1px;
+    outline-style: auto;
+}
+
+input #password:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 10px red;
+    outline-color: red;
+    outline-offset: -2px;
+    outline-style: auto;
 }
 
 button {
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    background: rgb(92, 105, 71);
+    background: #596D48;
     margin: 30px 40px 30px;
     color: #fff;
     font-size: 15px;
@@ -122,5 +138,5 @@ button:hover {
 
 .login a {
     text-decoration: none;
-    color: rgb(92, 105, 71);
+    color: #596D48;
 }
