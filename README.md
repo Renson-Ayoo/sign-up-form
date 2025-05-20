@@ -2,7 +2,7 @@
 
 A sleek and responsive **Sign-Up Form** designed using **HTML** and **CSS**. Featuring a clean glassmorphism interface, input icons, and modern form elements — perfect for user registration in web applications.
 
-![Screenshot](img.jpg) <!-- Replace this with the actual screenshot if available -->
+![Screenshot](Screenshot.png) <!-- Replace this with the actual screenshot if available -->
 
 ---
 
