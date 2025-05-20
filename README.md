@@ -18,9 +18,9 @@ A sleek and responsive **Sign-Up Form** designed using **HTML** and **CSS**. Fea
 ---
 
 ## 📁 Project Structure
-
+```
 signup-form/
 ├── index.html # HTML file for the signup form
 ├── style.css # CSS styles with glassmorphism and layout
 └── img.jpg # Background image for the form
-
+```
